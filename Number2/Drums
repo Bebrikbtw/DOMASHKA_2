@@ -1,0 +1,11 @@
+public class Drums implements Instrument {
+    private String size;
+    
+    public Drums(String size) {
+        this.size = size;
+    }
+    
+    public void play() {
+        System.out.println("Играет барабан размером " + size);
+    }
+}
