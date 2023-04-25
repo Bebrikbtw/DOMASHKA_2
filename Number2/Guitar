@@ -1,0 +1,11 @@
+public class Guitar implements Instrument {
+    private int numOfStrings;
+    
+    public Guitar(int numOfStrings) {
+        this.numOfStrings = numOfStrings;
+    }
+    
+    public void play() {
+        System.out.println("Играет гитара с " + numOfStrings + " струнами");
+    }
+}
